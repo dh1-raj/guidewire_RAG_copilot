@@ -1,0 +1,145 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.vim/
+
+# Documentation (exclude README)
+*.md
+!README.md
+*.txt
+!requirements.txt
+!requirements_backup.txt
+BEFORE_AFTER_COMPARISON.md
+CHANGELOG.md
+CHAT_INTERFACE_GUIDE.md
+COMPLETE_SPEC_KIT.md
+CONVERSATION_FEATURES.md
+CONVERSATION_SUMMARY.md
+DEPLOYMENT_CONFIG.md
+design.md
+FIXES_APPLIED.md
+GITHUB_COPILOT_INTEGRATION.md
+IMPLEMENTATION_SUMMARY_OLD.md
+LOGGING.md
+MCP_QUICK_START.md
+MCP_TESTING_GUIDE.md
+OPERATIONS_GUIDE.md
+OPTIMIZATION_SUMMARY.md
+PERFORMANCE_OPTIMIZATION.md
+PRODUCTION_FEATURES.md
+QUICK_FIX_SUMMARY.md
+QUICKSTART_CLI.md
+QUICKSTART_CONVERSATION.md
+QUICKSTART_OPTIMIZATIONS.md
+specs.md
+STREAMING_IMPLEMENTATION.md
+tasks.md
+TESTING_GUIDE.md
+TEST_RESULTS.md
+UI_IMPROVEMENTS.md
+VISUAL_GUIDE.md
+
+# Logs
+*.log
+rag_pipeline_*.log
+logs/
+*.log.*
+
+# JSON Config Files (exclude safe public configs)
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+.streamlit/
+
+# Data & Cache
+*.pkl
+*.pickle
+*.db
+*.sqlite
+*.sqlite3
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Test artifacts
+test_*.py
+tests/
+.tox/
+.hypothesis/
+
+# Backup files
+*.backup
+*.bak
+*_backup.*
+requirements_backup.txt
+
+# OS files
+Thumbs.db
+.Thumbs.db
+.AppleDouble
+.LSOverride
+*.lnk
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Node (if any frontend tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Misc
+.gitkeep
+.env.example
+ask
+rag
