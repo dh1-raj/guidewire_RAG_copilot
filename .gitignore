@@ -143,3 +143,4 @@ yarn-error.log
 .env.example
 ask
 rag
+setup_rag_cli.sh
